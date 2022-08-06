@@ -131,7 +131,7 @@ echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing knock2${RESET}"
-go get -u github.com/harleo/knockknock
+go install github.com/harleo/knockknock@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
@@ -143,7 +143,7 @@ echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing metabigor${RESET}"
-go get -u github.com/j3ssie/metabigor
+go install github.com/j3ssie/metabigor@latest
 echo "${BLUE} done${RESET}"
 
 sar 1 1 >/dev/null
@@ -152,13 +152,13 @@ echo ""
 echo "${GREEN}#### Installing fuzzing tools ####${RESET}"
 #install gobuster
 echo "${BLUE} installing gobuster${RESET}"
-sudo go get -u github.com/OJ/gobuster
+sudo go install -u github.com/OJ/gobuster@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 #install ffuf
 echo "${BLUE} installing ffuf${RESET}"
-go get -u github.com/ffuf/ffuf
+go install github.com/ffuf/ffuf@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
@@ -177,7 +177,7 @@ echo "${GREEN}#### Installing Domain Enum Tools ####${RESET}"
 
 #install aquatone
 echo "${BLUE} Installing Aquatone ${RESET}"
-go get -u github.com/michenriksen/aquatone 
+go install github.com/michenriksen/aquatone@latest 
 echo "${BLUE} done ${RESET}"
 echo ""
 
@@ -212,7 +212,7 @@ echo ""
 
 #install subjack
 echo "${BLUE} installing subjack ${RESET}"
-go get -u github.com/haccer/subjack
+go install github.com/haccer/subjack@latest
 echo "${BLUE} done ${RESET}"
 echo ""
 
@@ -224,7 +224,7 @@ echo "${BLUE} done ${RESET}"
 echo ""
 
 echo "${BLUE} installing Subover ${RESET}"
-go get -u github.com/Ice3man543/SubOver
+go install github.com/Ice3man543/SubOver@latest
 echo "${BLUE} done ${RESET}"
 echo ""
 
@@ -250,7 +250,7 @@ echo "${BLUE} done ${RESET}"
 echo ""
 
 echo "${BLUE} installing another cors scanner${RESET}"
-go get -u github.com/Tanmay-N/CORS-Scanner
+go install github.com/Tanmay-N/CORS-Scanner@latest
 echo "${BLUE} done${RESET}"
 echo ""
 sar 1 1 >/dev/null
@@ -539,7 +539,7 @@ echo ""
 
 #install subjs
 echo "${BLUE} installing subjs${RESET}"
-go get -u github.com/lc/subjs
+go install github.com/lc/subjs@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
@@ -602,7 +602,7 @@ echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing gau${RESET}"
-go get -u github.com/lc/gau
+go install github.com/lc/gau@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
@@ -628,38 +628,38 @@ sar 1 1 >/dev/null
 echo "${GREEN}#### ProjectDiscovery Pinned Tools ####${RESET}"
 
 echo "${BLUE} installing naabu${RESET}"
-go get -u github.com/projectdiscovery/naabu/cmd/naabu
+go install github.com/projectdiscovery/naabu/cmd/naabu@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 
 echo "${BLUE} installing dnsprobe${RESET}"
-go get -u github.com/projectdiscovery/dnsprobe
+go install github.com/projectdiscovery/dnsprobe@latest
 echo  "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing nuclei${RESET}"
-go get -u github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing subfinder${RESET}"
-go get -u github.com/projectdiscovery/subfinder/cmd/subfinder
+go install github.com/projectdiscovery/subfinder/cmd/subfinder@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing httpx${RESET}"
-go get -u github.com/projectdiscovery/httpx/cmd/httpx
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing shuffledns${RESET}"
-go get -u github.com/projectdiscovery/shuffledns/cmd/shuffledns
+go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing chaos-client${RESET}"
-go get -u github.com/projectdiscovery/chaos-client/cmd/chaos
+go install github.com/projectdiscovery/chaos-client/cmd/chaos@latest
 echo "${BLUE} done${RESET}"
 echo ""
 sar 1 1 >/dev/null
@@ -684,57 +684,57 @@ echo "${GREEN} #### Installing tomnomnom tools #### ${RESET}"
 echo "${GREEN}   check out his other tools as well  ${RESET}"
 
 echo "${BLUE} installing meg${RESET}"
-go get -u github.com/tomnomnom/meg
+go install github.com/tomnomnom/meg@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing assetfinder${RESET}"
-go get -u github.com/tomnomnom/assetfinder
+go install github.com/tomnomnom/assetfinder@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing waybackurls${RESET}"
-go get -u github.com/tomnomnom/waybackurls
+go install github.com/tomnomnom/waybackurls@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing gf${RESET}"
-go get -u github.com/tomnomnom/gf
+go install github.com/tomnomnom/gf@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing httprobe${RESET}"
-go get -u github.com/tomnomnom/httprobe
+go install github.com/tomnomnom/httprobe@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing concurl${RESET}"
-go get -u github.com/tomnomnom/hacks/concurl
+go install github.com/tomnomnom/hacks/concurl@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing unfurl${RESET}"
-go get -u github.com/tomnomnom/unfurl
+go install github.com/tomnomnom/unfurl@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing anti-burl${RESET}"
-go get -u github.com/tomnomnom/hacks/anti-burl
+go install github.com/tomnomnom/hacks/anti-burl@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing filter-resolved${RESET}"
-go get github.com/tomnomnom/hacks/filter-resolved
+go install github.com/tomnomnom/hacks/filter-resolved@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing fff${RESET}"
-go get -u github.com/tomnomnom/fff
+go install github.com/tomnomnom/fff@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing qsreplace${RESET}"
-go get -u github.com/tomnomnom/qsreplace
+go install github.com/tomnomnom/qsreplace@latest
 echo "${BLUE} done${RESET}"
 echo ""
 sar 1 1 >/dev/null
@@ -747,13 +747,13 @@ echo "${BLUE} done${RESET}"
 echo ""
 
 echo "${BLUE} installing cf-check${RESET}"
-go get -u github.com/dwisiswant0/cf-check
+go install github.com/dwisiswant0/cf-check@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
 
 echo "${BLUE} installing Urlprobe${RESET}"
-go get -u github.com/1ndianl33t/urlprobe
+go install github.com/1ndianl33t/urlprobe@latest
 echo "${BLUE} done${RESET}"
 echo ""
 
@@ -776,7 +776,5 @@ echo ""
 sar 1 1 >/dev/null
 
 echo "${GREEN} use the command 'source ~/.bash_profile' for the shell functions to work ${RESET}"
-echo ""
-echo "${GREEN}  ALL THE TOOLS ARE MADE BY THE BEST PEOPLE OF THE INFOSEC COMMUNITY ${RESET}"
 echo ""
 echo "${GREEN}                I AM JUST A SCRIPT-KIDDIE ;)                         ${RESET}"
